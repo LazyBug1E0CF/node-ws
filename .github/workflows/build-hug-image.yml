@@ -47,7 +47,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/$OWNER_LC/lwatchtowerws:latest
+            ghcr.io/${OWNER_LC}/lwatchtowerws:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
